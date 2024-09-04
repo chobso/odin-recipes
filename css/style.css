@@ -1,0 +1,12 @@
+.subsection.header {
+    color: red;
+  }
+
+.subsection#preview { 
+    color: blue;
+
+}
+
+.ancestor, .contents {
+    color: red;
+}
