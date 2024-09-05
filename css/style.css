@@ -62,3 +62,14 @@
     background-image: linear-gradient(#FFA500 0 0);
     color: white
 }
+
+/*adobo.html above*/
+
+.recipe-btn, a{
+    color:white;
+    background-color: orange;
+    text-decoration: none;
+}
+.recipe-btn:hover,a:hover{
+    background-image: linear-gradient(rgb(0 0 0/20%) 0 0); 
+}
