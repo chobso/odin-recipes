@@ -10,3 +10,55 @@
 .ancestor, .contents {
     color: red;
 }
+
+#btn-single, .btn-group{
+    background-color: orange;
+    color: white;
+    font-weight: italic;
+    font-family: arial, verdana, sans-serif;
+    font-size: 14px;
+}
+
+#btn-single:hover{
+    text-decoration: underline;
+}
+
+.btn-group:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.btn-group{
+    background-color: white;
+    color: black;
+}
+
+.body{
+    background-color: black;
+}
+
+#madeit-btn{
+    background-color: orange;
+    color: white;
+    height:30px;
+    width: 100px;
+    font-weight: bolder;
+}
+
+#print-btn{
+    color: white;
+    color: orange;
+    height:30px;
+    width: 100px;
+    border-color: orange;
+    font-weight: bolder;
+}
+
+#madeit-btn:hover{
+    background-image: linear-gradient(rgb(0 0 0/20%) 0 0);   
+}
+
+#print-btn:hover{
+    background-image: linear-gradient(#FFA500 0 0);
+    color: white
+}
