@@ -11,7 +11,7 @@
     color: red;
 }
 
-#btn-single, .btn-group{
+.btn-single, .btn-group{
     background-color: orange;
     color: white;
     font-weight: italic;
@@ -19,7 +19,7 @@
     font-size: 14px;
 }
 
-#btn-single:hover{
+.btn-single:hover{
     text-decoration: underline;
 }
 
@@ -37,7 +37,7 @@
     background-color: black;
 }
 
-#madeit-btn{
+.madeit-btn{
     background-color: orange;
     color: white;
     height:30px;
@@ -45,7 +45,7 @@
     font-weight: bolder;
 }
 
-#print-btn{
+.print-btn{
     color: white;
     color: orange;
     height:30px;
@@ -54,22 +54,27 @@
     font-weight: bolder;
 }
 
-#madeit-btn:hover{
+.madeit-btn:hover{
     background-image: linear-gradient(rgb(0 0 0/20%) 0 0);   
 }
 
-#print-btn:hover{
+.print-btn:hover{
     background-image: linear-gradient(#FFA500 0 0);
     color: white
 }
 
 /*adobo.html above*/
 
-.recipe-btn, a{
+.recipe-btn, .recipes{
     color:white;
     background-color: orange;
     text-decoration: none;
 }
-.recipe-btn:hover,a:hover{
+.recipe-btn:hover, .recipes:hover{
     background-image: linear-gradient(rgb(0 0 0/20%) 0 0); 
+}
+
+#recipes{
+    text-decoration: none;
+    color:black;
 }
