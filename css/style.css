@@ -1,14 +1,34 @@
+
+
+body{
+    background-color: #FFFFF0;
+}
+
 .subsection.header {
-    color: red;
+    background-color: royalblue;
+    margin-top: 5px;
+    padding: 10px;
+
+    color: rgb(255, 255, 255);
   }
 
 .subsection#preview { 
+    background-color:#FFA500;
+    padding: 10px;
     color: blue;
 
 }
 
+.header-list {
+    height: 100px;
+    background-color: royalblue;
+    padding: 25px;
+
+}
 .ancestor, .contents {
-    color: red;
+    display: auto;
+    color: white;
+    text-align: center;
 }
 
 .btn-single, .btn-group{
@@ -33,9 +53,7 @@
     color: black;
 }
 
-.body{
-    background-color: black;
-}
+
 
 .madeit-btn{
     background-color: orange;
@@ -77,4 +95,17 @@
 #recipes{
     text-decoration: none;
     color:black;
+}
+
+#recipes:hover{
+    text-decoration:underline;
+    color:#FFA500
+}
+
+.header-1{
+    width: 400px;
+    padding-left: 40px;
+}
+.header-helloworld {
+color: #FFA500;
 }
